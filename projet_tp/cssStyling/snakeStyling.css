@@ -1,0 +1,40 @@
+*{
+	font-family:cursive ;
+}
+body {
+	text-align: center;
+}
+canvas{
+	box-shadow: 0 0 10px #0f0;
+}
+button{
+	background-color: #0f0;
+	color: white;
+	border-radius: 15px;
+	width: 120px;
+	height: 40px;
+	padding-left: 5px;
+	padding-right: 5px;
+	font-size: 19px;
+	font-weight: 900;
+
+	box-shadow: 0 0 10px #0f0;
+	cursor: pointer;
+}
+button:hover{
+	transform: translate(5px,5px);
+	background-color: #f09292;
+}
+.content{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 1000;
+    transform: translate(-50%,-50%);
+}
+#notic, #scoure ,#maxScour{
+	color: #0f0;
+	font-size: 19px;
+	font-weight: 500;
+}
+
